@@ -5,6 +5,51 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
+
+h1,
+h4,
+p,
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.primary-button {
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: capitalize;
+  background-color: dodgerblue;
+  color: black;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    transition: 0.3s;
+  }
+}
+
+
+
+.secondary-button {
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: capitalize;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 code {
